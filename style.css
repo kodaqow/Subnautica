@@ -1,0 +1,250 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #012E40;
+	color: #D8DEE9;
+	font-family: "Exo 2", sans-serif;
+	font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+/*header*/
+
+header {
+	background-color: rgb(0, 32, 64);
+ 	padding: 10px 0;	
+ 	text-align: center;
+ 	box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+ 	margin-bottom: 30px;
+}
+
+.navbar {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-links {
+  list-style: none;
+ 	text-align: center;
+ }
+
+ .nav-links li {
+ 	display: inline-block;
+ 	margin: 0 25px;
+ }
+
+.nav-link a {
+  color: #00FFFF;
+  font-size: 22px;
+  font-weight: 450;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link a:hover {
+  color: #FF8C42;
+}
+
+.subnautica-icon {
+	width: 110px;
+	height: auto;
+	vertical-align: middle;
+	margin: 0 30px;
+	transition: color 0.7s;
+	cursor: grab;
+}
+
+.subnautica-icon:hover {
+	opacity: 0.8;
+	transform: scale(1.05);
+}
+
+#link {
+	text-decoration: none;
+}
+
+/*main*/
+
+/*introduction section*/
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #00FFFF;
+ 	margin: 30px 0 30px 0;
+}
+
+.introduction-section {
+	margin: 0 3% 0 3%;
+}
+
+.introduction-text {
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+p {
+	font-size: 23px;
+	font-weight: 300;
+	margin: 0;
+	padding: 10px 0 10px 0;
+	text-align: justify;
+}
+
+/*gallery section*/
+
+.gallery-section {
+	margin: 0 5% 0 5%;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+}
+
+.gallery-image img {
+  width: 500px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  border: 3px solid whitesmoke;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+	transform: scale(1.02);
+	opacity: 0.7;
+}
+
+.gallery-image {
+	text-align: center;
+}
+
+h4 {
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 8px;
+	padding: 0;
+	text-align: center;
+}
+
+#gallery-text {
+	padding: 0 0 30px 0;
+}
+
+
+/*features section*/
+
+.features {
+	margin: 0 3% 0 3%;
+	align-content: center;
+}
+
+h2 {
+	text-align: left;
+	font-size: 35px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+#li {
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.features-image {
+	width: 64%;
+	float: right;
+	padding: 10px;
+	transition: 0.3s;
+}
+
+.features-field {
+	float: left;
+	width: 30%;
+}
+
+#subnautica-base-image {
+	width: 440px;
+	border: 4px solid whitesmoke;
+	border-radius: 3px;
+	margin-right: 68px;
+	margin-left: 38px;
+}
+
+#subnautica-player-fov-image {
+	width: 440px;
+	border: 4px solid whitesmoke;
+	border-radius: 3px;
+	height: 247.5px;
+}
+
+.features-image img:hover {
+	opacity: 0.7;
+}
+
+/*links section*/
+
+#links-text {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+.links {
+	align-content: center;
+}
+
+button {
+	font-size: 18px;
+	cursor: grab;
+  background-color: #0077b6;
+  color: #00FFFF;
+  border: 2px solid #5058ad;
+  padding: 15px 25px;
+  margin: 5px;
+  border-radius: 15px;
+  transition: color 0.3s;
+}
+
+button:hover {
+  background-color: #ffb703;
+  color: #FF8C42;
+  border: 2px solid #a87b08;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*footer*/
+
+footer {
+  text-align: center;
+  padding: 18px;
+  background: #011627;
+  margin-top: 18px;
+  font-size: 18px;
+  box-shadow: 0 -2px 5px #00000066;
+}
+
+#footer-text {
+	color: #E0F7FA;
+	font-size: 18px;
+	font-weight: 300;
+}
